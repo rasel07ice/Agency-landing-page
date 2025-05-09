@@ -1,3 +1,6 @@
+import DownArrowIcon from "./Icons/DownArrowIcon";
+import UpArrowIcon from "./Icons/UpArrowIcon";
+
 const FAQSection = () => {
   return (
     <section class="bg-white dark:bg-gray-900">
@@ -21,19 +24,7 @@ const FAQSection = () => {
                 aria-controls="accordion-flush-body-1"
               >
                 <span>Can I use Landwind in open-source projects?</span>
-                <svg
-                  data-accordion-icon=""
-                  class="w-6 h-6 rotate-180 shrink-0"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <UpArrowIcon />
               </button>
             </h3>
             <div
@@ -69,19 +60,7 @@ const FAQSection = () => {
                 aria-controls="accordion-flush-body-2"
               >
                 <span>Is there a Figma file available?</span>
-                <svg
-                  data-accordion-icon=""
-                  class="w-6 h-6 shrink-0"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <DownArrowIcon />
               </button>
             </h3>
             <div
@@ -119,19 +98,7 @@ const FAQSection = () => {
                 <span>
                   What are the differences between Landwind and Tailwind UI?
                 </span>
-                <svg
-                  data-accordion-icon=""
-                  class="w-6 h-6 shrink-0"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <DownArrowIcon />
               </button>
             </h3>
             <div
@@ -184,19 +151,7 @@ const FAQSection = () => {
                 aria-controls="accordion-flush-body-4"
               >
                 <span>What about browser support?</span>
-                <svg
-                  data-accordion-icon=""
-                  class="w-6 h-6 shrink-0"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <DownArrowIcon />
               </button>
             </h3>
             <div
